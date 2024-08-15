@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class EncontrarCodigo {
     public static void main(String[] args) throws IOException {
-        FileReader archivoFisico = new FileReader("C:/Users/marti/IdeaProjects/codigospostales/src/main/java/mx/unison/codigos_postales.csv");
+        FileReader archivoFisico = new FileReader("codigos_postales.csv");
         BufferedReader archivoLogico = new BufferedReader(archivoFisico);
         String registro = null;
         String campos[];
