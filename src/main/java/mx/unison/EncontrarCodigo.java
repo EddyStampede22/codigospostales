@@ -20,6 +20,8 @@ public class EncontrarCodigo {
 
             }
         }
+        archivoLogico.close();
+        archivoFisico.close();
 
 
     }
